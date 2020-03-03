@@ -1,0 +1,22 @@
+.container {
+    display: block;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 640px) {
+    .container { width: 90%; }
+}
+
+@media (min-width: 720px) {
+    .container { width: 85%; }
+}
+
+@media (min-width: 960px) {
+    .container { width: 80%; }
+}
+
+@media (min-width: 1280px) {
+    .container { width: 75%; }
+}
